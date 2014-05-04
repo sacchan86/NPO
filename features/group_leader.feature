@@ -5,7 +5,7 @@ Feature: Search for members info
   
 Scenario: search member info
     Given I'm on the main page
-    And I click on the "Login"
+    When I click on the "Login"
     When I sign-in, I will see the group lists
     Then click on my group name to see the member lists
     When I click on the specific name on the list

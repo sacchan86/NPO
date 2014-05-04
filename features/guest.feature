@@ -4,7 +4,7 @@ Feature: Interested in some performances
   I want to look up the performance date and time
   
 Scenario: Check the performance Schedule
-    Given I'm on the main page of IYE
+    Given I'm on the main page
     When I click on the "Schedule"
     Then I will see the performance and practice Dates for each group
     When I click on the specific date
