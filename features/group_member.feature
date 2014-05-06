@@ -14,4 +14,3 @@ Scenario: Check on the schedules
   Then I should see the specific performance date
   When I click on the specific date
   Then I will see the details of the info
-
